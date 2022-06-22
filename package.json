@@ -1,0 +1,65 @@
+{
+  "name": "amazon-location-based-cookie",
+  "version": "0.1.0",
+  "description": "Location based amazon cookie library to get location specific information like price.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">= 16.13 <17"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/jest": "~27.5",
+    "@types/node": "~16",
+    "@typescript-eslint/eslint-plugin": "~5.26",
+    "@typescript-eslint/parser": "~5.26",
+    "axios-mock-adapter": "^1.21.1",
+    "eslint": "~8.16",
+    "eslint-config-prettier": "~8.5",
+    "eslint-plugin-jest": "~26.2",
+    "jest": "~28.1",
+    "nodemon": "^2.0.16",
+    "prettier": "~2.6",
+    "rimraf": "~3.0",
+    "ts-jest": "~28.0",
+    "ts-node": "^10.8.1",
+    "tsutils": "~3.21",
+    "typescript": "~4.7"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node build/src/index.js",
+    "clean": "rimraf coverage build tmp",
+    "prebuild": "npm run lint",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "build:release": "npm run clean && tsc -p tsconfig.release.json",
+    "lint": "eslint . --ext .ts --ext .mts",
+    "test": "jest --coverage",
+    "prettier": "prettier --config .prettierrc --write .",
+    "test:watch": "jest --watch"
+  },
+  "author": "Bariskau <barisozer.16@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "form-data": "^4.0.0",
+    "tslib": "~2.4"
+  },
+  "volta": {
+    "node": "16.13.0"
+  },
+  "main": "jest.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bariskau/Amazon-Location-Based-Cookie.git"
+  },
+  "keywords": [
+    "amazon",
+    "amazon-cookie"
+  ],
+  "bugs": {
+    "url": "https://github.com/Bariskau/Amazon-Location-Based-Cookie/issues"
+  },
+  "homepage": "https://github.com/Bariskau/Amazon-Location-Based-Cookie#readme"
+}
