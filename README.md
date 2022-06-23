@@ -3,7 +3,7 @@
 [![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-4-7]
 [![Node.js version][nodejs-badge]][nodejs]
-[![APLv2][license-badge]][license]
+[![MIT][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
 👩🏻‍💻 You can easily access location-based data with Amazon-Location-Based-Cookie
@@ -57,7 +57,7 @@ import {fetchCookie} from 'amazon-location-based-cookie';
 
 const country = {
     code: 'us',
-    random: '10001'
+    zipCode: '10001'
 }
 
 fetchCookie(country, 0).then(res => {
@@ -105,7 +105,7 @@ Please make sure to update tests as appropriate.
 [gha-ci]: https://github.com/Bariskau/Amazon-Location-Based-Cookie/actions/workflows/nodejs.yml
 [typescript]: https://www.typescriptlang.org/
 [typescript-4-7]: https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/
-[license-badge]: https://img.shields.io/badge/license-APLv2-blue.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license]: https://github.com/Bariskau/Amazon-Location-Based-Cookie/blob/main/LICENSE
 [sponsor-badge]: https://img.shields.io/badge/♥-Sponsor-fc0fb5.svg
 [sponsor]: https://github.com/sponsors/Bariskau
