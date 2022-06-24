@@ -85,7 +85,7 @@ fetchCookie(country, 0).then(res => {
 ## Testing
 
 ```bash
-npm run jest
+npm run test
 ```
 
 ## Contributing
