@@ -54,7 +54,8 @@
     "node": "16.13.0"
   },
   "main": "jest.config.js",
-  "exports": "./src/index.js",
+  "exports": "./build/src/index.js",
+  "types": "./build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bariskau/Amazon-Location-Based-Cookie.git"
