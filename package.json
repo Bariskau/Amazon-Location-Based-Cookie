@@ -1,6 +1,6 @@
 {
   "name": "amazon-location-based-cookie",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Location based amazon cookie library to get location specific information like price.",
   "type": "commonjs",
   "engines": {
