@@ -36,8 +36,7 @@
     "lint": "eslint . --ext .ts --ext .mts",
     "test": "jest --coverage",
     "prettier": "prettier --config .prettierrc --write .",
-    "test:watch": "jest --watch",
-    "prepublishOnly": "npm run test && npm run lint"
+    "test:watch": "jest --watch"
   },
   "files": [
     "/build"
@@ -53,9 +52,8 @@
   "volta": {
     "node": "16.13.0"
   },
-  "main": "jest.config.js",
-  "exports": "./build/src/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bariskau/Amazon-Location-Based-Cookie.git"
