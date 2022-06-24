@@ -1,6 +1,6 @@
 {
   "name": "amazon-location-based-cookie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Location based amazon cookie library to get location specific information like price.",
   "type": "commonjs",
   "engines": {
@@ -38,6 +38,9 @@
     "prettier": "prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
+  "files": [
+    "/build"
+  ],
   "author": "Bariskau <barisozer.16@gmail.com>",
   "license": "MIT",
   "dependencies": {
