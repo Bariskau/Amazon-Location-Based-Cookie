@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2015",
     "module": "Commonjs",
     "lib": [
       "ES2015"
@@ -22,6 +22,7 @@
     "strictNullChecks": false
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "__tests__/**/*"
   ]
 }
